@@ -74,6 +74,7 @@ if (uppercase){
 if (special){
  passwordRequirements = passwordRequirements.concat(specialArray)
  }
+ console.log(passwordRequirements)
 //takes the selected imputs and compiles the password
  for (var i = 0; i < passwordLength; i++) {
   var randomPassword = passwordRequirements.charAt(Math.floor(Math.random() * passwordRequirements.length));
