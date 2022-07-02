@@ -33,20 +33,18 @@ var generatedPassword = ''
 
 // prompt to chose a password length
   var passwordLength = prompt('input length between 8 and 128');
+
+
 // checks to make sure the length is alright and if it isnt alerts to tell you whats wrong
-  if (passwordLength < 8 || passwordLength > 128){
+  if (passwordLength < 8){
     alert('woah now buddy you need a password of least 8 to continue')        
     return
   }
-  // if (passwordLength > 128){
-  //   alert("easy there slugger, your password can't be over 128 long!")
-  //   return
-  // }
-  // if (passwordLength){
-  //   alert("sorry buddy, you can only input numbers here, not letters!")
-  //   console.log(passwordLength.charAt[1])
-  //   return
-  // }
+  if (passwordLength > 128){
+    alert("easy there slugger, your password can't be over 128 long!")
+    return
+  }
+
 
 //the prompts for what to make the password with
   var numbers = confirm('would you like to use numbers?');
@@ -55,9 +53,6 @@ var generatedPassword = ''
   var special = confirm('would you like special characters?');
 
 
-
-
-console.log(passwordLength);
 
 //alert if they didnt say yes to anything
 if (!numbers && !uppercase && !lowercase && !special){

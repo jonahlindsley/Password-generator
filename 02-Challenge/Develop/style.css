@@ -49,14 +49,14 @@ header {
   background: #e7e9eb;
   height: 2px;
 }
-/* the area that the retuned password will go */
+/* sets the height of the area that the retuned password will go */
 .card-body {
   min-height: 100px;
 }
 /* the footer element that holds the generate password button */
-.card-footer {
-  text-align: center;
-}
+/* .card-footer {
+
+} */
 
 .card-footer::before {
   content: " ";
@@ -64,12 +64,14 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
+  text-align: center;
 }
 
 .card-footer::after {
   content: " ";
   display: block;
   clear: both;
+  text-align: center;
 }
 /* styles the actual button */
 .btn {
@@ -87,11 +89,11 @@ header {
   cursor: pointer;
 }
 
-/* button[disabled] {
+button[disabled] {
   cursor: default;
   background: #c0c7cf;
-} */
-/* 
+}
+
 
 /* the box that displays the generated password */
 #password {
