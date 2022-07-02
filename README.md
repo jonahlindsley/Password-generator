@@ -3,4 +3,4 @@ it selects a custom password for you based on the inputs you provide it and prin
 it uses an array of characters to chosen at random to produce a password that meets the requested criteria. 
 
 [deployed website](https://jonahlindsley.github.io/randomPassword/)
-![an image of the password generator](./Assets/screenshot.jpeg "password generator")
+![an image of the password generator](./02-Challenge/Assets/screenshot.jpeg "password generator")
