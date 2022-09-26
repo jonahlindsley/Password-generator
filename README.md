@@ -1,5 +1,5 @@
 
-  # Random password generator  
+  # Password generator  
   ***
   ## Discription 
   
@@ -14,7 +14,7 @@
   * [questions](#questions)
   ***
   ## the deployed website  
-  [click to view deployed website](https://jonahlindsley.github.io/random-Password-generator/)
+  [click to view deployed website](https://jonahlindsley.github.io/Password-generator/)
   ***
   ## installation
   no need to install  
